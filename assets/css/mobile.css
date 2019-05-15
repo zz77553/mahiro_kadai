@@ -1,0 +1,158 @@
+
+@media screen  and (max-width: 978px){
+
+/* 
+===================
+     light box
+===================
+*/ 
+.light_box_wrapper {
+	max-width: 95%;
+}
+.linght_box_contact .inner .contact_button {
+    width: 100%;
+}
+.linght_box_block2 .sub_block {
+    flex-direction: column;
+}
+.linght_box_block2 .sub_block .box {
+    padding: 0;
+    padding-bottom: 25px;
+}
+/* 
+===================
+      header
+===================
+*/
+#header .contact_button {
+    padding: 0px 8%;
+    text-align: center;
+}
+/* 
+===================
+      block1
+===================
+*/
+.block1 {
+    flex-direction: row;
+    align-items: center;
+}
+.block1_word {
+    font-size: 4.5vw;
+    padding: 20px;
+    text-align: left;
+}
+/* 
+===================
+      block2
+===================
+*/
+.block2 .inner, .block3 .inner {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.block2 {
+    padding-top: 3rem;
+}
+.block2 .inner {
+    flex-direction: column;
+}
+.block2 .img_box {
+	margin: 0 0 10px;
+}
+.block2 .word {
+	margin: 0px;
+}
+/* 
+===================
+      block3
+===================
+*/
+.block3 .inner .inner_box .word {
+    font-size: 4.5vw;
+    margin-left: 10%;
+}
+.block3 .inner .inner_box .word::before {
+    top: 1.7rem;
+    left: -10.5%;
+    font-size: 13vw;
+    padding: 0;
+}
+.block3 .inner .inner_box .word .arrow {
+    width: 8%;
+    height: 3rem;
+    margin-left: 8%;
+    top: 30%;
+    right: 5%;
+}
+.block3 .inner .inner_box .inner_sub_box h4, .block3 .inner .inner_box .inner_sub_box p {
+    margin-left: 0;
+}
+/* 
+===================
+      block4
+===================
+*/
+.block4 .inner .item_box {
+    max-width: 40%;
+    padding: 5%;
+}
+/* 
+===================
+      block5
+===================
+*/
+.block5 .inner {
+    width: 100%;
+}
+.owl-carousel .owl-stage-outer {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+/* 
+===================
+      block6
+===================
+*/
+.block6 .inner .contact_button {
+    width: 90%;
+}
+/* 
+===================
+      footer
+===================
+*/
+#footer .footer_nav ul {
+    flex-direction: column;
+    text-align: left;
+}
+#footer .footer_nav ul li {
+    border-bottom: 1px solid #fff;
+}
+#footer .footer_nav ul li a {
+    display: block;
+    padding: 8px 0 10px;
+    padding-left: 5%;
+}
+#footer .footer_nav ul li:last-child {
+    border-bottom: none;
+}
+#footer .footer_nav ul li::before {
+    display: none;
+}
+
+} /*END of @media only screen and (max-width: 978px)*/
+
+
+@media screen  and (max-width: 1130px){
+
+/* block5 slider */
+.owl-nav {
+    width: 90%;
+    left: 5%;
+}
+
+} /*END of @media only screen and (max-width: 1130px)*/
+
+
